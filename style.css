@@ -1,0 +1,51 @@
+* {
+	border: 1px solid red;
+	font-family: 'Raleway', sans-serif;
+	color: black!important;
+}
+.navbar-default {
+	border-color: transparent;
+	margin-bottom: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.navbar-nav>li>a {
+	padding: 10px!important;
+}
+a.navbar-brand {
+	height: 42.5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin: auto;
+}
+#banner {
+	width: 25%; 
+	display: block;
+	margin: 65px auto 25px;
+}
+#welcome {
+	width: 100%;
+	display: block;
+}
+h3 {
+	width: 70%;
+	font-size: 25px;
+	display: block;
+	margin: 40px auto;
+	padding: 0px 30px;
+	text-align: center;
+	text-justify: distribute;
+}
+@media only screen and (min-width : 300px) and (max-width : 500px) {
+	h3 {
+    font-size: 20px;
+   }
+}
+@media only screen and (min-width : 500px) and (max-width : 800px) {
+    h3 {
+        font-size: 20px;
+       }
+}

@@ -10,30 +10,14 @@
 	right: 10px !important;
 }
 
-.lightgreen{
-	background-color: #80b0a9;
-}
-
-.tan{
-	background-color: #d2b47e;
-}
-
-.upper-footer{
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	color: white;
-}
-.upper-footer span{
-	text-align: left;
+.lightblue{
+	background-color: lightblue;
 }
 
 .lower-footer{
 	box-sizing: border-box;
 	display: block;
 	text-align: center;
-	vertical-align: middle;
 	color: white;
 
 }
@@ -41,4 +25,8 @@
 .lower-footer span{
 	font: helvetica;
 	font-size: 1em;
+}
+
+.lower-footer a{
+	color: white;
 }

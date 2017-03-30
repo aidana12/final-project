@@ -47,7 +47,10 @@
 
 .btn{
 	color: white;	
-	display: block;
+	display: inline-block;
 }
 
+.container i{
+	vertical-align: center;
+}
 

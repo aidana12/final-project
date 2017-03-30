@@ -64,6 +64,7 @@ a.navbar-brand {
 	position: absolute;
 	top:20%;
 	left:9%;
+	opacity: 0.7;
 	margin: 0 0 0 -1px;
 	padding:2px 0 0;
 	display:block;
@@ -75,25 +76,21 @@ a.navbar-brand {
 }
 #text-box h2 {
 	position: absolute;
+	color: #623238;
 	display: block;
 	top: 25%;
 	left: 60%;
 	z-index: 20;
-	color: #623238;
-	font-size: 550%;
-	font-family: 'Lato';
+	font-size: 5em!important;
 	font-weight: 200;
-}
-#text-box {
-	color: white;
-	/*	opacity: 0.5;*/
+	color: #623238;
 }
 .affix {
 	bottom: 10%;
 	right: 5% !important;
 }
 .lightblue{
-	background-color: lightblue;
+	background-color: #777C8E;
 }
 #About {
 	font-size: 1.3em;
@@ -107,21 +104,23 @@ a.navbar-brand {
 }
 #About p {
 	color: #dfcdcf;
+	font-size: 1em!important;
 }
 #heading1 {
 	margin-top: 0;
 	color: white;
 	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
+	font-size: 2.5em;
+  font-weight: 300;
 }
 #heading2 {
 	color: #623238;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
+	font-size: 3em;
+  font-weight: 300;
 }
+
 .othercolour {
 	color: #3C0B11!important;
 	font-weight: 380!important;
@@ -137,12 +136,13 @@ a.navbar-brand {
 	margin-bottom: 5px;
 }
 .size{
-	font-size: 19px!important;
+	font-size: 0.7em!important;
 }
 #singlebutton{
 	background-color: #86575B;
 	border-color: #86575B;
-	opacity: 0.9	
+
+	font-size: 0.7em;
 }
 .white {
 	color: white!important;

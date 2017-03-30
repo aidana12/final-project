@@ -9,7 +9,7 @@
 	z-index: +1;
 }
 .cover img {
-	position:absolute;
+	position: absolute;
 	top:20%;
 	left:9%;
 	margin: 0 0 0 -1px;
@@ -41,35 +41,16 @@
 	right: 10px !important;
 }
 
-.lightgreen{
-	background-color: #80b0a9;
+.lightblue{
+	background-color: lightblue;
 }
 
-.tan{
-	background-color: #d2b47e;
+.btn{
+	color: white;	
+	display: inline-block;
 }
 
-.upper-footer{
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	color: white;
-}
-.upper-footer span{
-	text-align: left;
+.container i{
+	vertical-align: center;
 }
 
-.lower-footer{
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	color: white;
-
-}
-
-.lower-footer span{
-	font: helvetica;
-	font-size: 1em;
-}

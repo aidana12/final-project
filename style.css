@@ -1,10 +1,41 @@
+.body {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: none;
+}
 .nav{
 	background-color: white;
 	width: 150px;
 	border-radius: 25px;
 	z-index: +1;
 }
-
+.cover img {
+	position:absolute;
+	top:20%;
+	left:9%;
+	margin: 0 0 0 -1px;
+	padding:2px 0 0;
+	display:block;
+	width:100%;
+	height:auto;
+}
+.opacity {
+	opacity: 0.5;
+}
+#text-box h2 {
+	position: absolute;
+	display: block;
+	top: 25%;
+	left: 60%;
+	z-index: 20;
+	color: white;
+	font-size: 550%;
+	font-family: 'Lato';
+	font-weight: 200;
+}
+#text-box {
+	color: white;
+/*	opacity: 0.5;*/
+}
 .affix {
 	bottom: 50px;
 	right: 10px !important;

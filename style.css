@@ -12,7 +12,7 @@
 	z-index: +1;
 }
 .nav> li > a {
-	color: transparent;
+	color: white;
 	background-color: transparent;
 	padding: 5px;
 }

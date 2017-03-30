@@ -5,6 +5,6 @@
 }
 
 .affix {
-	top: 50px;
+	bottom: 50px;
 	right: 10px !important;
 }

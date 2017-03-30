@@ -1,6 +1,3 @@
-* {
-	font-family: 'Lato';
-}
 .body {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
@@ -12,18 +9,18 @@
 	z-index: +1;
 }
 .nav> li > a {
-	color: white;
-	background-color: transparent;
-	padding: 5px;
+  color: white;
+  background-color: transparent;
+  padding: 5px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus{
 	color: #a6797e;
-	background-color: white;
-	padding: 5px;
+    background-color: white;
+    padding: 5px;
 }
 .nav-pills>li.active>a:hover {
-	color: #a6797e;
-	background-color: #a6797e;
+    color: #a6797e;
+    background-color: #a6797e;
 }
 .cover img {
 	position: absolute;
@@ -51,7 +48,7 @@
 }
 #text-box {
 	color: white;
-	/*	opacity: 0.5;*/
+/*	opacity: 0.5;*/
 }
 .affix {
 	bottom: 10%;
@@ -60,63 +57,11 @@
 .lightblue{
 	background-color: lightblue;
 }
-#About {
-	font-size: 1.3em;
-	background: #a6797e;
-	height: 100%;
-	width: 100%;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-bottom: 5%;
-	padding-right: 5%;
-}
-#About p {
-	color: #dfcdcf;
-}
-#heading1 {
-	margin-top: 0;
-	color: white;
-	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
-}
-#heading2 {
-	color: #623238;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
-}
-.othercolour {
-	color: #3C0B11!important;
-	font-weight: 380!important;
-}
-.lead{
-	color: #fff;
-	font-weight: 450;
-}
-.nomarginbottom {
-	margin-bottom: 0;
-}
-.margincustom {
-	margin-bottom: 5px;
-}
-.size{
-	font-size: 19px!important;
-}
-#singlebutton{
-	background-color: #86575B;
-	border-color: #86575B;
-	opacity: 0.9	
-}
-.white {
-	color: white!important;
-}
-.btn {
+.btn{
 	color: white;	
 	display: inline-block;
 }
-.container i {
+.container i{
 	vertical-align: center;
 }
 .lower-footer span{
@@ -125,5 +70,32 @@
 }
 #footer {
 	position: absolute;
-	width: 100%
+    width: 100%
+}
+#About{
+	font-size: 1.3em;
+	background: #a6797e;
+	color: #dfcdcf;
+	height: 100%;
+	width: 100%;
+	padding-left: 5%;
+	padding-bottom: 10%;
+	padding-right: 5%;
+}
+#About h2 {
+  font: 400 30px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: #fff;
+}
+.lead{
+  font: 400 28px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+#About li{
+	font: 400 20px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: black;
+}
+#singlebutton{
+	background-color:black;
+	border-color: black;	
 }

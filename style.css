@@ -2,6 +2,7 @@
 	background-color: white;
 	width: 150px;
 	border-radius: 25px;
+	z-index: +1;
 }
 
 .affix {

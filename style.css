@@ -15,16 +15,9 @@
 }
 
 .lower-footer{
-	box-sizing: border-box;
 	display: block;
 	text-align: center;
 	color: white;
-
-}
-
-.lower-footer span{
-	font: helvetica;
-	font-size: 1em;
 }
 
 .lower-footer a{

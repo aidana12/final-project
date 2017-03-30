@@ -5,7 +5,42 @@
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
 }
-.nav{
+.navbar {
+	min-height: 40px!important;
+}
+.navbar-default {
+	border-color: transparent;
+	margin-bottom: 0;
+	background: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.navbar-nav>li>a {
+	padding: 10px!important;
+	font-size: 1.5em;
+	color: #623238!important;
+	font-weight: 300;
+}
+a.navbar-brand {
+	height: 40px;
+    padding: 10px 10px 10px 15px;
+    font-size: 1.5em;
+    line-height: 20px;
+    margin: auto;
+	color: #623238!important;
+	font-weight: 300;
+}
+.navbar-default .navbar-toggle .icon-bar  {
+    background-color: #623238;
+}
+.navbar-default .navbar-toggle {
+    border-color: #623238;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.51);
+}
+/*.nav{
 	background-color: transparent;
 	width: 85px;
 	border-radius: 30px;
@@ -24,11 +59,12 @@
 .nav-pills>li.active>a:hover {
 	color: #a6797e;
 	background-color: #a6797e;
-}
+}*/
 .cover img {
 	position: absolute;
 	top:20%;
 	left:9%;
+	opacity: 0.7;
 	margin: 0 0 0 -1px;
 	padding:2px 0 0;
 	display:block;
@@ -40,25 +76,21 @@
 }
 #text-box h2 {
 	position: absolute;
+	color: #623238;
 	display: block;
 	top: 25%;
 	left: 60%;
 	z-index: 20;
-	color: white;
-	font-size: 550%;
-	font-family: 'Lato';
+	font-size: 5em!important;
 	font-weight: 200;
-}
-#text-box {
-	color: white;
-	/*	opacity: 0.5;*/
+	color: #623238;
 }
 .affix {
 	bottom: 10%;
 	right: 5% !important;
 }
 .lightblue{
-	background-color: lightblue;
+	background-color: #777C8E;
 }
 #About {
 	font-size: 1.3em;
@@ -72,21 +104,23 @@
 }
 #About p {
 	color: #dfcdcf;
+	font-size: 1em!important;
 }
 #heading1 {
 	margin-top: 0;
 	color: white;
 	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
+	font-size: 2.5em;
+  font-weight: 300;
 }
 #heading2 {
 	color: #623238;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 30px;
-    font-weight: 300;
+	font-size: 3em;
+  font-weight: 300;
 }
+
 .othercolour {
 	color: #3C0B11!important;
 	font-weight: 380!important;
@@ -102,12 +136,13 @@
 	margin-bottom: 5px;
 }
 .size{
-	font-size: 19px!important;
+	font-size: 0.7em!important;
 }
 #singlebutton{
 	background-color: #86575B;
 	border-color: #86575B;
-	opacity: 0.9	
+
+	font-size: 0.7em;
 }
 .white {
 	color: white!important;
@@ -115,9 +150,7 @@
 .btn {
 	color: white;	
 	display: inline-block;
-}
-.container i {
-	vertical-align: center;
+	width: 33%;
 }
 .lower-footer span{
 	font: helvetica;
@@ -129,7 +162,10 @@
 }
 
 #team{
-	padding: none;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: none;
+	padding-left: none;
 }
 .teamimg{
 	max-height: 378px;
@@ -144,7 +180,13 @@
 .teamlist {
 	list-style: none;
 	margin: 0;
-	padding: 10%,0,0;
 	overflow: hidden;
 	margin: 0;
+	width: 100%
+
+}
+#imglist{
+	padding-left: 5%;
+	padding-right: 5%;
+
 }

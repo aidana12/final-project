@@ -1,6 +1,5 @@
 .nav{
 	background-color: white;
-	width: 150px;
 	border-radius: 25px;
 	z-index: +1;
 }
@@ -8,37 +7,4 @@
 .affix {
 	bottom: 50px;
 	right: 10px !important;
-}
-
-.lightgreen{
-	background-color: #80b0a9;
-}
-
-.tan{
-	background-color: #d2b47e;
-}
-
-.upper-footer{
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	color: white;
-}
-.upper-footer span{
-	text-align: left;
-}
-
-.lower-footer{
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	color: white;
-
-}
-
-.lower-footer span{
-	font: helvetica;
-	font-size: 1em;
 }

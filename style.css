@@ -1,0 +1,10 @@
+.nav{
+	background-color: white;
+	width: 150px;
+	border-radius: 25px;
+}
+
+.affix {
+	top: 50px;
+	right: 10px !important;
+}

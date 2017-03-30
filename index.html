@@ -72,9 +72,9 @@
 				</div>
 			</div>
 		</div> 
-		<div id="text-box">
+		<!-- <div id="text-box">
 			<h2>Ihr Frauenarzt</h2>
-		</div>
+		</div> -->
 	</div>
   <!--About us -->
 	<div class="container-fluid" id="About">
@@ -82,7 +82,7 @@
 	  	    <div class="col-md-12 col-xs-12">
 	  			<div class="text-center">
 	   				<h3 id="heading1">Über uns</h3>
-		   			<p class="lead othercolour">
+		   			<p class="lead othercolour" style="text-transform: uppercase;">
 		  			Vertrauensvolle Behandlung und jahrelange Erfahrung in Gynäkologie und Geburtshilfe! 
 		   			</p>
 	  			</div>
@@ -116,42 +116,62 @@
     	</div>
     	<div class="row">
 	  		<div class="col-md-12 col-xs-12 text-center"> 
-    		<button id="singlebutton" name="singlebutton" class="btn btn-primary" href="Contact"><strong>Machen Sie jetzt einen Termin!</strong></button> 
+    		<button id="singlebutton" name="singlebutton" class="btn btn-primary" id="btn" href="Contact"><strong>Machen Sie jetzt einen Termin!</strong></button> 
 			</div>
  		</div>
  	</div>
  	<div id="Contact">
- 		<div class="container">
- 			<div class="row">
+ 		<div class="container-fluid pad">
+ 			<div class="row colour pad">
  				<h2 id="heading2">Kontakt</h2>
  			</div>
- 			<div class="row">
- 				<div class="col-sm-4 col-md-4 col-xs-4">
- 					<label><input type="text" name="name" placeholder="Name/Familienname"></label>
- 					<label><input type="text" name="name" placeholder="Email"></label>
- 					<label><input type="text" name="name" placeholder="Telefon"></label>
- 					<label><input type="text" name="name" placeholder="Message"></label>
+ 			<div class="row colour pad">
+ 				<div class="col-sm-3 col-md-3 col-xs-3 wtf">
+ 					<p>Name/Familienname</p>
+ 					<label><input type="text" name="name" placeholder="Helena Sholt"></label>
+ 					<p>Telefon</p>
+ 					<label><input type="text" name="name" placeholder="+49"></label>
+ 					<p>Email</p>
+ 					<label><input type="text" name="name" placeholder="h.sholt@mail.de"></label>
+ 					<p>Message</p>
+ 					<label><input type="text" name="name" placeholder="I would like to book an appointment" id="message"></label>
  				</div>
- 				<div class="col-sm-4 col-md-4 col-xs-4">
- 					<div id="map" style="width:100%;height:300px"></div>
+ 				<div class="col-sm-3 col-md-3 col-xs-3">
+ 					<p class="wtf"><b>Telefon</b>: 02841 / 94 99 567<br>
+					<b>Tax</b>: 02841 / 94 99 567<br> 
+					<b>Email</b>: praxis@dr-krick.de <br>
+					<b>Address</b>: <br>  
+					MVZ für Frauengesundheit <br>
+					Asberger Strasse 3b <br>
+					47441 Moers <br>
+					</p>
  				</div>
- 				<div class="col-sm-4 col-md-4 col-xs-4">
-
+ 				<div class="col-sm-3 col-md-3 col-xs-3">
+ 					<p class="wtf"><b>Öffnungszeiten:</b><br>
+					Montag, Dienstag und <br> 
+					Donnerstag: 08:00 - 17:00 Uhr <br>
+					Mittwoch:   08:00 - 15:00 Uhr <br>
+					Freitag:    08:00 - 14:00 Uhr
+					</p>
+ 				</div>
+ 				<div class="col-sm-3 col-md-3 col-xs-3">
+ 					<div id="map" style="width:100%;height:200px"></div>
  				</div>
  			</div>
  		</div>
  	</div>
 	<div class="lightblue" id="footer">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<a class="btn" href="http://www.frauengesundheit-moers.net/impressum">
+			<a class="btn btn1" href="http://www.frauengesundheit-moers.net/impressum">
 			<i class="glyphicon glyphicon-share-alt"></i> Impressum</a>
-			<a class="btn" href="#Privacy">
+			<a class="btn btn1" href="#Privacy">
 			<i class="glyphicon glyphicon-share-alt"></i> Privacy</a>
-			<a class="btn" href=""><i class="glyphicon glyphicon-share-alt"></i> Facebook</a>
+			<a class="btn btn1" href=""><i class="glyphicon glyphicon-share-alt"></i> Facebook</a>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="gyno.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVdzyAuokgLhsrKMlZlq6tGL4ozGqQ6vc&callback=myMap"></script>
 </body>
 </html>

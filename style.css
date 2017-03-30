@@ -1,21 +1,23 @@
 .nav{
-	background-color: white;
-	width: 150px;
-	border-radius: 50px;
+	background-color: transparent;
+	width: 85px;
+	border-radius: 30px;
 	z-index: +1;
 }
 
 .nav> li > a {
-  color: #a6797e;
-  background-color: white;
+  color: white;
+  background-color: transparent;
+  padding: 5px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus{
 	color: #a6797e;
-    background-color: darkgrey;
+    background-color: white;
+    padding: 5px;
 }
 .nav-pills>li.active>a:hover {
     color: #a6797e;
-    background-color: lightgrey;
+    background-color: #a6797e;
 }
 .affix {
 	bottom: 10%;

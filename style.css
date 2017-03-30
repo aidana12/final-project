@@ -5,7 +5,42 @@
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
 }
-.nav{
+.navbar {
+	min-height: 40px!important;
+}
+.navbar-default {
+	border-color: transparent;
+	margin-bottom: 0;
+	background: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.navbar-nav>li>a {
+	padding: 10px!important;
+	font-size: 1.5em;
+	color: #623238!important;
+	font-weight: 300;
+}
+a.navbar-brand {
+	height: 40px;
+    padding: 10px 10px 10px 15px;
+    font-size: 1.5em;
+    line-height: 20px;
+    margin: auto;
+	color: #623238!important;
+	font-weight: 300;
+}
+.navbar-default .navbar-toggle .icon-bar  {
+    background-color: #623238;
+}
+.navbar-default .navbar-toggle {
+    border-color: #623238;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.51);
+}
+/*.nav{
 	background-color: transparent;
 	width: 85px;
 	border-radius: 30px;
@@ -24,7 +59,7 @@
 .nav-pills>li.active>a:hover {
 	color: #a6797e;
 	background-color: #a6797e;
-}
+}*/
 .cover img {
 	position: absolute;
 	top:20%;
@@ -48,6 +83,7 @@
 	z-index: 20;
 	font-size: 5em!important;
 	font-weight: 200;
+	color: #623238;
 }
 .affix {
 	bottom: 10%;
@@ -75,14 +111,14 @@
 	color: white;
 	text-transform: uppercase;
 	font-size: 2.5em;
-    font-weight: 300;
+  font-weight: 300;
 }
 #heading2 {
 	color: #623238;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 3em;
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .othercolour {
@@ -105,17 +141,16 @@
 #singlebutton{
 	background-color: #86575B;
 	border-color: #86575B;
+
 	font-size: 0.7em;
 }
 .white {
 	color: white!important;
 }
-.btn1 {
-	width: 33%;
+.btn {
 	color: white;	
-/*	display: flex;*/
-	justify-content: center;
-	text-align: center;
+	display: inline-block;
+	width: 33%;
 }
 .lower-footer span{
 	font: helvetica;

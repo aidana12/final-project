@@ -58,7 +58,7 @@
 	right: 5% !important;
 }
 .lightblue{
-	background-color: lightblue;
+	background-color: #777C8E;
 }
 #About {
 	font-size: 1.3em;
@@ -113,11 +113,10 @@
 	color: white!important;
 }
 .btn {
+	width: 33%;
 	color: white;	
-	display: inline-block;
-}
-.container i {
-	vertical-align: center;
+	justify-content: center;
+	text-align: center;
 }
 .lower-footer span{
 	font: helvetica;

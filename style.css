@@ -4,7 +4,17 @@
 	border-radius: 25px;
 	z-index: +1;
 }
-
+.cover img {
+	position:absolute;
+	top:20%;
+	left:9%;
+	height: 399px;
+	margin: 0 0 0 -1px;
+	padding:2px 0 0;
+	display:block;
+	width:100%;
+	height:auto;
+}
 .affix {
 	bottom: 50px;
 	right: 10px !important;

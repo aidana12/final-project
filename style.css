@@ -68,6 +68,11 @@
 	font: helvetica;
 	font-size: 1em;
 }
+#footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%
+}
 #About{
 	font-size: 1.3em;
 	background: #a6797e;

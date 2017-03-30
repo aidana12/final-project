@@ -3,10 +3,24 @@
 	-ms-text-size-adjust: none;
 }
 .nav{
-	background-color: white;
-	width: 150px;
-	border-radius: 25px;
+	background-color: transparent;
+	width: 85px;
+	border-radius: 30px;
 	z-index: +1;
+}
+.nav> li > a {
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus{
+	color: #a6797e;
+    background-color: white;
+    padding: 5px;
+}
+.nav-pills>li.active>a:hover {
+    color: #a6797e;
+    background-color: #a6797e;
 }
 .cover img {
 	position: absolute;
@@ -37,20 +51,47 @@
 /*	opacity: 0.5;*/
 }
 .affix {
-	bottom: 50px;
-	right: 10px !important;
+	bottom: 10%;
+	right: 5% !important;
 }
-
 .lightblue{
 	background-color: lightblue;
 }
-
 .btn{
 	color: white;	
 	display: inline-block;
 }
-
 .container i{
 	vertical-align: center;
 }
-
+.lower-footer span{
+	font: helvetica;
+	font-size: 1em;
+}
+#About{
+	font-size: 1.3em;
+	background: #a6797e;
+	color: #dfcdcf;
+	height: 100%;
+	width: 100%;
+	padding-left: 5%;
+	padding-bottom: 10%;
+	padding-right: 5%;
+}
+#About h2 {
+  font: 400 30px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: #fff;
+}
+.lead{
+  font: 400 28px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+#About li{
+	font: 400 20px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: black;
+}
+#singlebutton{
+	background-color:black;
+	border-color: black;	
+}

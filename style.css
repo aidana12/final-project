@@ -23,6 +23,7 @@
 	display: block;
 	text-align: center;
 	vertical-align: middle;
+	color: white;
 }
 .upper-footer span{
 	text-align: left;
@@ -33,6 +34,8 @@
 	display: block;
 	text-align: center;
 	vertical-align: middle;
+	color: white;
+
 }
 
 .lower-footer span{

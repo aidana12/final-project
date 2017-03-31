@@ -11,7 +11,6 @@ function myMap() {
   var map = new google.maps.Map(mapCanvas, mapOptions);
   var marker = new google.maps.Marker({position:myCenter});
   marker.setMap(map);
-<<<<<<< Updated upstream
 }
 
 $(document).ready(function() { 

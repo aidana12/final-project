@@ -5,10 +5,6 @@
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
 }
-/* .nav{
-	background-color: white;
-<<<<<<< Updated upstream
-	border-radius: 25px; */
 .navbar {
 	min-height: 40px!important;
 }
@@ -51,39 +47,8 @@ a.navbar-brand {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 0.51);
 }
-/*.nav{
-	background-color: transparent;
-	width: 85px;
-	border-radius: 30px;
-=======
-	border-radius: 25px;
->>>>>>> Stashed changes
-	z-index: +1;
-}
-.nav> li > a {
-	color: white;
-	background-color: transparent;
-	padding: 5px;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus{
-	color: #a6797e;
-	background-color: white;
-	padding: 5px;
-}
-.nav-pills>li.active>a:hover {
-	color: #a6797e;
-	background-color: #a6797e;
-}*/
 .cover img {
-<<<<<<< HEAD
-	position: absolute;
-=======
-<<<<<<< HEAD
 	position:absolute;
-=======
-	position: absolute;
->>>>>>> master
->>>>>>> Our-Services
 	top:20%;
 	left:9%;
 	opacity: 0.7;
@@ -92,10 +57,6 @@ a.navbar-brand {
 	display:block;
 	width:100%;
 	height:auto;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> Our-Services
 }
 .opacity {
 	opacity: 0.5;
@@ -119,9 +80,6 @@ h2#text-box {
 	bottom: 10%;
 	right: 5% !important;
 }
-/* .nav {
-	font-size-adjust: 50px;
-} */
 .opacity {
 	opacity: 0.5;
 }
@@ -131,39 +89,28 @@ h2#text-box {
 	top: 25%;
 	left: 60%;
 	z-index: 20;
-	color: white;
+	color: #ffffff;
 	font-size: 550%;
 	font-family: 'Lato';
 	font-weight: 200;
 }
 #text-box {
-	color: white;
-/*	opacity: 0.5;*/
+	color: #ffffff;
 }
 .affix {
 	bottom: 50px;
 	right: 10px !important;
 }
-
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
-.lightblue{
-	background-color: lightblue;
-}
-
 .btn{
-	color: white;	
+	color: #ffffff;	
 	display: inline-block;
-<<<<<<< Updated upstream
 }
 
 .container i{
 	vertical-align: center;
 }
 .lightblue{
-	background-color: #777C8E;
+	background-color: #a6797e;
 }
 #About {
 	font-size: 1.3em;
@@ -181,7 +128,7 @@ h2#text-box {
 }
 #heading1 {
 	margin-top: 0;
-	color: white;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 2.5em;
   	font-weight: 300;
@@ -206,44 +153,6 @@ h2#text-box {
 }
 .nomarginbottom {
 	margin-bottom: 0;
-=======
-}
-=======
-.nav{
-	font-size-adjust: 50px;
-}
-
-.media img{
-	height: 50%;
-}
-=======
-}
-.opacity {
-	opacity: 0.5;
-}
-#text-box h2 {
-	position: absolute;
-	display: block;
-	top: 25%;
-	left: 60%;
-	z-index: 20;
-	color: white;
-	font-size: 550%;
-	font-family: 'Lato';
-	font-weight: 200;
-}
-#text-box {
-	color: white;
-/*	opacity: 0.5;*/
-}
-.affix {
-	bottom: 50px;
-	right: 10px !important;
-}
-
-.lightblue{
-	background-color: lightblue;
->>>>>>> Stashed changes
 }
 .margincustom {
 	margin-bottom: 5px;
@@ -256,12 +165,7 @@ h2#text-box {
 	border-color: #86575B;
 	font-size: 0.7em;
 
-<<<<<<< Updated upstream
 }
-/*#row {
-	display: flex;
-	flex-wrap: wrap;
-}*/
 .wtf {
 	color: #623238;
 	font-size: 1.3em;
@@ -297,13 +201,13 @@ input {
 	flex-wrap: wrap;
 }
 .white {
-	color: white!important;
+	color: #ffffff!important;
 }
 a.btn1 {
-	color: white;
+	color: #ffffff;
 }
 .btn1 {
-	color: white;	
+	color: #ffffff;	
 	display: inline-block;
 	width: 33%;
 }
@@ -354,7 +258,7 @@ ul.teamlist {
 }
 #teamheader h2{
 	margin-top: 5%;
-	color: #a6797e
+	color: #623238;
 }
 .text-box-team h4{
 	color: #a6797e;
@@ -373,6 +277,16 @@ ul.nav.nav-pills.teamlist, .half {
 }
 .notop {
 	margin-top: 0;
+	font-weight: 300;
+}
+h4 {
+	font-weight: 300;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+.margin3 {
+	margin-bottom: 3px!important;
+	color: rgba(98, 50, 56, 0.78);
 }
 .media {
 	display: flex;
@@ -389,7 +303,7 @@ ul.nav.nav-pills.teamlist, .half {
 	padding-bottom: 45px;
 	padding-top: 15px;
 	color: #623238;
-	background-color: #FFF9F5;
+	background-color: rgba(250, 227, 229, 0.4);
 	width: 100%;
 }
 .thiscolour {
@@ -397,27 +311,20 @@ ul.nav.nav-pills.teamlist, .half {
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	color: #623238;
-    background-color: #FFECE1;
+    background-color: #ffffff;
 }
 .nav>li>a:focus, .nav>li>a:hover {
-	background-color: rgba(255, 236, 225, 0.52);
-}
-a:focus, a:hover {
+	background-color: rgba(255, 255, 255, 0.44);
 	color: #623238;
 }
-=======
+a:focus, a:hover {
+	color: rgba(255, 255, 255, 0.44);
+}
 .btn{
-	color: white;	
+	color: #ffffff;	
 	display: inline-block;
 }
->>>>>>> Our-Services
-
 .container i{
 	vertical-align: center;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> Our-Services
->>>>>>> Stashed changes

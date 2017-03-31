@@ -31,6 +31,7 @@ $(document).ready(function() {
    $("#SK").hover(function(){
    	    $("#SK").fadeTo('fast', 3);
     },
+
     function(){
         $("#SK").fadeTo('fast', 0.7);
     });

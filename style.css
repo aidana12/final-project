@@ -101,11 +101,6 @@ h2#text-box {
 	bottom: 50px;
 	right: 10px !important;
 }
-
-.lightblue{
-	background-color: lightblue;
-}
-
 .btn{
 	color: #ffffff;	
 	display: inline-block;
@@ -115,7 +110,7 @@ h2#text-box {
 	vertical-align: center;
 }
 .lightblue{
-	background-color: #777C8E;
+	background-color: #a6797e;
 }
 #About {
 	font-size: 1.3em;

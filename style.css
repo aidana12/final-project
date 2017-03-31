@@ -196,6 +196,7 @@ h2#text-box {
 	background-color: #86575B;
 	border-color: #86575B;
 	font-size: 0.7em;
+
 }
 /*#row {
 	display: flex;
@@ -303,6 +304,9 @@ ul.teamlist {
 }
 .leli {
 	margin-bottom: 0px;
+}
+.leli2 {
+	padding-top: 0;
 }
 ul.nav.nav-pills.teamlist, .half {
 	margin-bottom: 15px;

@@ -126,8 +126,8 @@ a.navbar-brand {
 	color: #3C0B11!important;
 	font-weight: 380!important;
 }
-.firstlead{
-	color: #fff;
+.lead {
+	color: #623238;
 	font-weight: 450;
 }
 .nomarginbottom {
@@ -197,7 +197,11 @@ a.btn1 {
 	position: absolute;
 	width: 100%
 }
-
+ul.teamlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 #team{
 	height: 100%
 	width:100%;
@@ -225,11 +229,14 @@ a.btn1 {
 
 }
 #imglist{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
 
 }
-
+ul.teamlist {
+	margin: 0 auto;
+	justify-content: center;
+}
 .list-inline{
 	padding-bottom: 15%;
 }

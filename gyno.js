@@ -1,18 +1,7 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
 $('#myTabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Our-Services
->>>>>>> Stashed changes
 function myMap() {
   var myCenter = new google.maps.LatLng(51.4464952,6.6398927000000185);
   var mapCanvas = document.getElementById("map");
@@ -20,7 +9,6 @@ function myMap() {
   var map = new google.maps.Map(mapCanvas, mapOptions);
   var marker = new google.maps.Marker({position:myCenter});
   marker.setMap(map);
-<<<<<<< Updated upstream
 }
 
 $(document).ready(function() { 
@@ -60,11 +48,3 @@ $(document).ready(function() {
 
 
 });
-=======
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> master
->>>>>>> Our-Services
->>>>>>> Stashed changes

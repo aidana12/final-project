@@ -9,9 +9,13 @@
 }
 .cover img {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	position:absolute;
 =======
 	position: absolute;
+>>>>>>> master
+=======
+	position:absolute;
 >>>>>>> master
 	top:20%;
 	left:9%;
@@ -21,6 +25,9 @@
 	width:100%;
 	height:auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 }
 .opacity {
 	opacity: 0.5;

@@ -41,12 +41,12 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#About">Über uns</a></li>
-					<li><a href="#Team">Team</a></li>
-					<li><a href="#Services">Leistungen</a></li>
+					<li id="uberu"><a href="#About">Über uns</a></li>
+					<li id="teami"><a href="#Team">Team</a></li>
+					<li id="servizio"><a href="#Services">Leistungen</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#Contact">Kontakt</a></li>
+					<li id="contatto"><a href="#Contact">Kontakt</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -392,7 +392,7 @@
  	<div id="Contact">
  		<div class="container-fluid">
  			<div class="row colour">
- 				<h2 class="heading2">Kontakt</h2>
+ 				<h2 class="heading2" id="nachricht">Kontakt</h2>
  			</div>
  			<div class="col-md-12">
  				<ul class="list-inline teamlist">
@@ -429,15 +429,13 @@
  			</div>
  		</div>
  	</div>
-	<div class="lightblue" id="footer">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<a class="btn btn1" href="http://www.frauengesundheit-moers.net/impressum">
-			<i class="glyphicon glyphicon-share-alt"></i> Impressum</a>
-			<a class="btn btn1" href="#Privacy">
-			<i class="glyphicon glyphicon-share-alt"></i> Privacy</a>
-			<a class="btn btn1" href=""><i class="glyphicon glyphicon-share-alt"></i> Facebook</a>
-		</div>
+	<div class="container lightblue" id="footer">
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+			<a class="btn" href="http://www.frauengesundheit-moers.net/impressum"><i class="glyphicon glyphicon-share-alt"></i> Impressum</a><a class="btn" href="#Privacy"><i class="glyphicon glyphicon-share-alt"></i> Privacy</a><a class="btn" href=""><i class="glyphicon glyphicon-share-alt"></i> Facebook</a>
+	 	</div>
 	</div>
+
+
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="jquery.scrollTo.js"></script>

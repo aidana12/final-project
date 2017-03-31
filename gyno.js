@@ -1,7 +1,9 @@
+
 $('#myTabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
+
 function myMap() {
   var myCenter = new google.maps.LatLng(51.4464952,6.6398927000000185);
   var mapCanvas = document.getElementById("map");
@@ -42,9 +44,38 @@ $(document).ready(function() {
 
     $("#singlebutton").click(function(){
     	console.log("clicked")
-    	$(window).scrollTo($(".wtf"), 1000);
+    	$(window).scrollTo($("#nachricht"), 1000);
+
+    })
+
+    $("#uberu").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($("#About"), 1000);
+
+    })
+
+    $("#teami").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($("#Team"), 1000);
+
+    })
+
+   	$("#servizio").click(function(){
+   	console.log("clicked")
+   	$(window).scrollTo($("#Service"), 1000);
+
+    })
+
+   	$("#contatto").click(function(){
+   	console.log("clicked")
+   	$(window).scrollTo($("#Contact"), 1000);
 
     })
 
 
+
+
+
+
 });
+

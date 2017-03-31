@@ -25,6 +25,13 @@
 	color: #623238!important;
 	font-weight: 300;
 }
+.half {
+	width: 300px;
+	max-height: 300px;
+}
+.media-body {
+	vertical-align: top;
+}
 a.navbar-brand {
 	height: 40px;
     padding: 10px 10px 10px 15px;

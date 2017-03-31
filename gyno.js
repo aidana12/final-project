@@ -49,6 +49,34 @@ $(document).ready(function() {
 
     })
 
+    $("#uberu").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($("#About"), 1000);
+
+    })
+
+    $("#teami").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($("#Team"), 1000);
+
+    })
+
+   	$("#servizio").click(function(){
+   	console.log("clicked")
+   	$(window).scrollTo($("#Service"), 1000);
+
+    })
+
+   	$("#contatto").click(function(){
+   	console.log("clicked")
+   	$(window).scrollTo($("#Contact"), 1000);
+
+    })
+
+
+
+
+
 
 });
 

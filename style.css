@@ -7,6 +7,7 @@
 }
 /* .nav{
 	background-color: white;
+<<<<<<< Updated upstream
 	border-radius: 25px; */
 .navbar {
 	min-height: 40px!important;
@@ -54,6 +55,9 @@ a.navbar-brand {
 	background-color: transparent;
 	width: 85px;
 	border-radius: 30px;
+=======
+	border-radius: 25px;
+>>>>>>> Stashed changes
 	z-index: +1;
 }
 .nav> li > a {
@@ -71,7 +75,15 @@ a.navbar-brand {
 	background-color: #a6797e;
 }*/
 .cover img {
+<<<<<<< HEAD
+	position: absolute;
+=======
+<<<<<<< HEAD
 	position:absolute;
+=======
+	position: absolute;
+>>>>>>> master
+>>>>>>> Our-Services
 	top:20%;
 	left:9%;
 	opacity: 0.7;
@@ -80,6 +92,10 @@ a.navbar-brand {
 	display:block;
 	width:100%;
 	height:auto;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Our-Services
 }
 .opacity {
 	opacity: 0.5;
@@ -129,6 +145,10 @@ h2#text-box {
 	right: 10px !important;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 .lightblue{
 	background-color: lightblue;
 }
@@ -136,6 +156,7 @@ h2#text-box {
 .btn{
 	color: white;	
 	display: inline-block;
+<<<<<<< Updated upstream
 }
 
 .container i{
@@ -185,6 +206,44 @@ h2#text-box {
 }
 .nomarginbottom {
 	margin-bottom: 0;
+=======
+}
+=======
+.nav{
+	font-size-adjust: 50px;
+}
+
+.media img{
+	height: 50%;
+}
+=======
+}
+.opacity {
+	opacity: 0.5;
+}
+#text-box h2 {
+	position: absolute;
+	display: block;
+	top: 25%;
+	left: 60%;
+	z-index: 20;
+	color: white;
+	font-size: 550%;
+	font-family: 'Lato';
+	font-weight: 200;
+}
+#text-box {
+	color: white;
+/*	opacity: 0.5;*/
+}
+.affix {
+	bottom: 50px;
+	right: 10px !important;
+}
+
+.lightblue{
+	background-color: lightblue;
+>>>>>>> Stashed changes
 }
 .margincustom {
 	margin-bottom: 5px;
@@ -197,6 +256,7 @@ h2#text-box {
 	border-color: #86575B;
 	font-size: 0.7em;
 
+<<<<<<< Updated upstream
 }
 /*#row {
 	display: flex;
@@ -345,3 +405,19 @@ ul.nav.nav-pills.teamlist, .half {
 a:focus, a:hover {
 	color: #623238;
 }
+=======
+.btn{
+	color: white;	
+	display: inline-block;
+}
+>>>>>>> Our-Services
+
+.container i{
+	vertical-align: center;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> Our-Services
+>>>>>>> Stashed changes

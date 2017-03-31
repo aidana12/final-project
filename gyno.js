@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     $("#singlebutton").click(function(){
     	console.log("clicked")
-    	$(window).scrollTo($(".wtf"), 1000);
+    	$(window).scrollTo($("#nachricht"), 1000);
 
     })
 

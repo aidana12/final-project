@@ -74,16 +74,20 @@ a.navbar-brand {
 .opacity {
 	opacity: 0.5;
 }
-#text-box h2 {
+h2#text-box {
 	position: absolute;
-	color: #623238;
-	display: block;
-	top: 25%;
-	left: 60%;
-	z-index: 20;
-	font-size: 5em!important;
-	font-weight: 200;
-	color: #623238;
+    bottom: 2800%;
+    left: 51%;
+    z-index: 20;
+    font-size: 5em!important;
+    font-weight: 200;
+    color: #623238;
+    padding: 1%;
+    width: 100%;
+    text-shadow: none;
+}
+.carousel-caption {
+	padding: 0.5%;
 }
 .affix {
 	bottom: 10%;

@@ -5,6 +5,10 @@
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
 }
+/* .nav{
+	background-color: white;
+<<<<<<< Updated upstream
+	border-radius: 25px; */
 .navbar {
 	min-height: 40px!important;
 }
@@ -21,6 +25,13 @@
 	font-size: 1.5em;
 	color: #623238!important;
 	font-weight: 300;
+}
+.half {
+	width: 300px;
+	max-height: 300px;
+}
+.media-body {
+	vertical-align: text-top;
 }
 a.navbar-brand {
 	height: 40px;
@@ -44,6 +55,9 @@ a.navbar-brand {
 	background-color: transparent;
 	width: 85px;
 	border-radius: 30px;
+=======
+	border-radius: 25px;
+>>>>>>> Stashed changes
 	z-index: +1;
 }
 .nav> li > a {
@@ -61,7 +75,15 @@ a.navbar-brand {
 	background-color: #a6797e;
 }*/
 .cover img {
+<<<<<<< HEAD
 	position: absolute;
+=======
+<<<<<<< HEAD
+	position:absolute;
+=======
+	position: absolute;
+>>>>>>> master
+>>>>>>> Our-Services
 	top:20%;
 	left:9%;
 	opacity: 0.7;
@@ -70,24 +92,75 @@ a.navbar-brand {
 	display:block;
 	width:100%;
 	height:auto;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Our-Services
 }
+.opacity {
+	opacity: 0.5;
+}
+h2#text-box {
+	position: absolute;
+    bottom: 2800%;
+    left: 51%;
+    z-index: 20;
+    font-size: 5em!important;
+    font-weight: 200;
+    color: #623238;
+    padding: 1%;
+    width: 100%;
+    text-shadow: none;
+}
+.carousel-caption {
+	padding: 0.5%;
+}
+.affix {
+	bottom: 10%;
+	right: 5% !important;
+}
+/* .nav {
+	font-size-adjust: 50px;
+} */
 .opacity {
 	opacity: 0.5;
 }
 #text-box h2 {
 	position: absolute;
-	color: #623238;
 	display: block;
 	top: 25%;
 	left: 60%;
 	z-index: 20;
-	font-size: 5em!important;
+	color: white;
+	font-size: 550%;
+	font-family: 'Lato';
 	font-weight: 200;
-	color: #623238;
+}
+#text-box {
+	color: white;
+/*	opacity: 0.5;*/
 }
 .affix {
-	bottom: 10%;
-	right: 5% !important;
+	bottom: 50px;
+	right: 10px !important;
+}
+
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+.lightblue{
+	background-color: lightblue;
+}
+
+.btn{
+	color: white;	
+	display: inline-block;
+<<<<<<< Updated upstream
+}
+
+.container i{
+	vertical-align: center;
 }
 .lightblue{
 	background-color: #777C8E;
@@ -133,6 +206,44 @@ a.navbar-brand {
 }
 .nomarginbottom {
 	margin-bottom: 0;
+=======
+}
+=======
+.nav{
+	font-size-adjust: 50px;
+}
+
+.media img{
+	height: 50%;
+}
+=======
+}
+.opacity {
+	opacity: 0.5;
+}
+#text-box h2 {
+	position: absolute;
+	display: block;
+	top: 25%;
+	left: 60%;
+	z-index: 20;
+	color: white;
+	font-size: 550%;
+	font-family: 'Lato';
+	font-weight: 200;
+}
+#text-box {
+	color: white;
+/*	opacity: 0.5;*/
+}
+.affix {
+	bottom: 50px;
+	right: 10px !important;
+}
+
+.lightblue{
+	background-color: lightblue;
+>>>>>>> Stashed changes
 }
 .margincustom {
 	margin-bottom: 5px;
@@ -144,6 +255,8 @@ a.navbar-brand {
 	background-color: #86575B;
 	border-color: #86575B;
 	font-size: 0.7em;
+
+<<<<<<< Updated upstream
 }
 /*#row {
 	display: flex;
@@ -249,3 +362,62 @@ ul.teamlist {
 #teamheader .lead{
 	margin-bottom: 13px;
 }
+.leli {
+	margin-bottom: 0px;
+}
+.leli2 {
+	padding-top: 0;
+}
+ul.nav.nav-pills.teamlist, .half {
+	margin-bottom: 15px;
+}
+.notop {
+	margin-top: 0;
+}
+.media {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+/*	height: 300px;*/
+	flex-direction: row;
+}
+/*img.media-left.media-middle/*, */.media-body {
+	width: 60%;
+}
+#Services {
+	padding-bottom: 45px;
+	padding-top: 15px;
+	color: #623238;
+	background-color: #FFF9F5;
+	width: 100%;
+}
+.thiscolour {
+	color: #623238;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #623238;
+    background-color: #FFECE1;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: rgba(255, 236, 225, 0.52);
+}
+a:focus, a:hover {
+	color: #623238;
+}
+=======
+.btn{
+	color: white;	
+	display: inline-block;
+}
+>>>>>>> Our-Services
+
+.container i{
+	vertical-align: center;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> Our-Services
+>>>>>>> Stashed changes

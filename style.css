@@ -286,6 +286,7 @@ h4 {
 }
 .margin3 {
 	margin-bottom: 3px!important;
+	color: rgba(98, 50, 56, 0.78);
 }
 .media {
 	display: flex;

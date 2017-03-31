@@ -30,7 +30,7 @@
 	max-height: 300px;
 }
 .media-body {
-	vertical-align: top;
+	vertical-align: text-top;
 }
 a.navbar-brand {
 	height: 40px;
@@ -106,9 +106,6 @@ h2#text-box {
 /* .nav {
 	font-size-adjust: 50px;
 } */
-.media img {
-	height: 50%;
-}
 .opacity {
 	opacity: 0.5;
 }
@@ -303,4 +300,44 @@ ul.teamlist {
 }
 #teamheader .lead{
 	margin-bottom: 13px;
+}
+.leli {
+	margin-bottom: 0px;
+}
+ul.nav.nav-pills.teamlist, .half {
+	margin-bottom: 15px;
+}
+.notop {
+	margin-top: 0;
+}
+.media {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+/*	height: 300px;*/
+	flex-direction: row;
+}
+/*img.media-left.media-middle/*, */.media-body {
+	width: 60%;
+}
+#Services {
+	padding-bottom: 45px;
+	padding-top: 15px;
+	color: #623238;
+	background-color: #FFF9F5;
+	width: 100%;
+}
+.thiscolour {
+	color: #623238;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #623238;
+    background-color: #FFECE1;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: rgba(255, 236, 225, 0.52);
+}
+a:focus, a:hover {
+	color: #623238;
 }

@@ -1,3 +1,7 @@
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 function myMap() {
   var myCenter = new google.maps.LatLng(51.4464952,6.6398927000000185);
   var mapCanvas = document.getElementById("map");
@@ -35,5 +39,12 @@ $(document).ready(function() {
     function(){
         $("#TV").fadeTo('fast', 0.7);
     });
+
+    $("#singlebutton").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($(".wtf"), 1000);
+
+    })
+
 
 });

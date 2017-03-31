@@ -36,4 +36,13 @@ $(document).ready(function() {
         $("#TV").fadeTo('fast', 0.7);
     });
 
+    $("#singlebutton").click(function(){
+    	console.log("clicked")
+    	$(window).scrollTo($(".wtf"), 1000);
+
+    })
+
+
 });
+
+

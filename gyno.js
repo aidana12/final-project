@@ -1,3 +1,7 @@
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 function myMap() {
   var myCenter = new google.maps.LatLng(51.4464952,6.6398927000000185);
   var mapCanvas = document.getElementById("map");
@@ -44,5 +48,3 @@ $(document).ready(function() {
 
 
 });
-
-

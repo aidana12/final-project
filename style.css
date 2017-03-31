@@ -192,7 +192,7 @@ input {
 	padding-right: 3px;
 }
 #message {
-	height: 92px;
+	height: 70px;
 }
 .pad {
 	padding: 1%;
@@ -327,4 +327,14 @@ a:focus, a:hover {
 .container i{
 	vertical-align: center;
 }
-
+input.thiscolour {
+	background-color: rgba(198, 137, 141, 0.48);
+	border-color: transparent!important;
+	border-radius: 5px;
+	width: 20%;
+	margin-right: 20%;
+}
+p.thiscolour.hi {
+	width: 300px;
+	margin-right: 0!important;
+}

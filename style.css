@@ -29,6 +29,10 @@
 .media-body {
 	vertical-align: text-top;
 }
+#width3{
+padding-left:5%;
+padding-right: 5%;
+}
 a.navbar-brand {
 	height: 40px;
     padding: 10px 10px 10px 15px;
@@ -218,6 +222,7 @@ ul.teamlist {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
+
 }
 #team{
 	height: 100%
@@ -282,6 +287,8 @@ h4 {
 	margin-bottom: 3px!important;
 	color: rgba(98, 50, 56, 0.78);
 }
+
+
 .media {
 	display: flex;
 	flex-wrap: wrap;

@@ -4,7 +4,7 @@ $('#myTabs a').click(function (e) {
   $(this).tab('show')
 })
 function myMap() {
-  var myCenter = new google.maps.LatLng(51.4464952,6.6398927000000185);
+  var myCenter = new google.maps.LatLng(51.4463224,6.639379700000063);
   var mapCanvas = document.getElementById("map");
   var mapOptions = {center: myCenter, zoom: 15};
   var map = new google.maps.Map(mapCanvas, mapOptions);

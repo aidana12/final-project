@@ -3,13 +3,16 @@
 <head>
 	<title>Frauengesundheit</title>
 	<meta charset="utf-8">
-	<meta name="description" content="Aidana Mun, Rotterdam based virtual design creator">
+	<meta name="description" content="Julian Krick">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://use.fontawesome.com/9c3a0ff18d.js"></script>
+    <script src="gen_validatorv4.js" type="text/javascript"></script>
+</head>
+
 </head>
 <!--- establishing the scroll spy for either the nav or side-bar -->
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
@@ -36,14 +39,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Ihr Frauenarzt</a>
+				<a class="navbar-brand" href="#">MVZ Frauengesundheit</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li id="uberu"><a href="#About">Über uns</a></li>
 					<li id="teami"><a href="#Team">Team</a></li>
-					<li id="servizio"><a href="#Services">Leistungen</a></li>
+<!-- 					<li id="servizio"><a href="#Services">Leistungen</a></li> -->
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li id="contatto"><a href="#Contact">Kontakt</a></li>
@@ -98,29 +101,36 @@
 	  		<div class="col-md-12 col-xs-12">
 	    		<div class="text-center">
 	      			<p id="sizem">
-	     			Gynäkologische Beschwerden sind sehr persönlich und sensibel und benötigen deswegen höchste Aufmerksamkeit und Kompetenz. Aus diesem Grund haben wir das medizinische Versorgungszentrum für Frauengesundheit gegründet, um als spezialisierte Institution präziser und kompetenter auf gynäkologische Beschwerden einzugehen. Wir sind stolz Ihnen eine persönliche Betreuung und kompetente Leistungen anbieten zu können. 
+	     			Gynäkologische Beschwerden sind sehr persönlich und sensibel und benötigen daher besondere Aufmerksamkeit und Kompetenz. Bei Beschwerden ist schnelle und fachlich versierte Hilfe gewünscht - bei Problemen ist die Erwartung an uns, sich Zeit für Sie zu nehmen, allzu verständlich. 
 	     			<br>
-      				Als ein kleines, eng zusammenarbeitendes Team bieten wir Ihnen eine sowohl vertrauensvolle  als auch familiäre Umgebung. Wir verbinden jahrelange Erfahrung mit modernem Know-how und adäquater Technik.
+      				Daher haben wir, die Praxen Dr. Matthias Krick, die Gemeinschaftspraxis Drs Ludwig Stephan und Dr (H) Stephanie Köstering und das MVZ für Frauengesundheit Moers GmbH, die Praxisgemeinschaft frauengesundheit-moers gegründet. 
+Als ein kleines, eng zusammenarbeitendes Team bieten wir Ihnen sowohl eine vertrauensvolle Umgebung als auch jahrelange Erfahrung mit modernem Know-how und adäquater Technik.
 	     			<br>
- 					An unserem Standort in Moers bieten wir alle relevanten Leistungen zum Thema Gynäkologie und Geburtshilfe an. Wir haben nicht nur hohe Standards in der Betreuung und Unterstützung des Patienten sondern auch das nötige Verständnis und die Geduld. 
+ 					An unserem Standort in Moers, Xantener Strasse 30, bieten wir alle relevanten Leistungen zum Thema Gynäkologie und Geburtshilfe an. 
+Unsere Schwangeren begleiten wir gemeinsam mit unserem Hebammenteam durch eine aufregende Zeit. 
+Zusätzlich werden alle ambulant durchführbaren Eingriffe von einem jahrelang erfahrenen Facharzt in unserem neuen OP-Zentrum durchgeführt. 
 	     			<br>
+                    Wir haben nicht nur hohe fachliche Standards sondern auch das nötige Verständnis und die Geduld. 
+Wir sind stolz, Ihnen eine persönliche Betreuung und kompetente Leistungen anbieten zu können.
+<br><br><strong>Unsere Patientin darf zu Recht etwas mehr von uns erwarten ! </strong>
+                    <br>
 	     			<br>
- 					Unsere Fachgebiete sind: <br>
+<!--  					Unsere Fachgebiete sind: <br>
         				- Gynäkologie <br>
-        				- Geburtshilfe
+        				- Geburtshilfe -->
         			</p>
-        			<p class="title2 title1 title3" style="text-transform: uppercase;">
+        			<!-- <p class="title2 title1 title3" style="text-transform: uppercase;">
 		  			<br>
 		  			Machen Sie noch heute einen Termin!
-		   			</p>
+		   			</p> -->
         		</div>
         	</div>
     	</div>
-    	<div class="row title32">
+    	<!-- <div class="row title32">
 	  		<div class="col-md-12 col-xs-12 text-center"> 
     		<button id="singlebutton" name="singlebutton" class="btn btn-primary" id="btn"><a href="#Contact" class="white"><strong>Machen Sie jetzt einen Termin!</strong></a></button> 
 			</div>
- 		</div>
+ 		</div> -->
  	</div>
   	<!--- TEAM -->
  	<div class="container-fluid" id="Team">
@@ -145,21 +155,21 @@
  						</div>
  					</li>
  					<li>
- 						<a href="http://dr-stephan.de"><img class="img-rounded teamimg" alt="Dr. Stephanie Köstering" src="doc1.jpg" id="SK"></a>
+ 						<a href="http://dr-stephan.de"><img class="img-rounded teamimg" alt="Dr. Stephanie Köstering" src="steffi.jpg" id="SK"></a>
  						<div class="text-center text-box-team">
  							<h4>Dr. Stephanie Köstering</h4>
  							<h5 class="burgundy">Fachärztin für Gynäkologie und Geburtshilfe</h5>
  						</div>
  					</li>
  					<li>
- 						<a href="http://dr-stephan.de"><img class="img-rounded teamimg" alt="Dr. med. Ludwig G. Stephan" src="doc3.jpg" id="LS"></a>
+ 						<a href="http://dr-stephan.de"><img class="img-rounded teamimg" alt="Dr. med. Ludwig G. Stephan" src="ludwigstephan.jpg" id="LS"></a>
  						<div class="text-box-team text-center">
  							<h4>Dr. med. Ludwig G. Stephan</h4>
  							<h5 class="burgundy">Facharzt für Gynäkologie und Geburtshilfe</h5>
  						</div>
  					</li>
  					<li>
- 						<img class="img-rounded teamimg" alt="Dr. Tatjana Vrnoga" src="doc2.jpg" id="TV">
+ 						<img class="img-rounded teamimg" alt="Dr. Tatjana Vrnoga" src="tatjana.jpg" id="TV">
  						<div class="text-box-team text-center">
  							<h4>
  								Dr. Tatjana Vrnoga
@@ -171,7 +181,9 @@
  			</div>
       	</div>
     </div>
-    <div class="container colour2" >
+
+
+<!-- <!--     <div class="container colour2" >
     	<div class="row colour">
  				<h2 class="heading2 title3">Leistungen</h2>
  		</div>
@@ -188,7 +200,7 @@
     		</ul>
     	</div>
     	<!-- Tab panes -->
-    	<div class="tab-content">
+    	<!-- <div class="tab-content">
     		<div role="tabpanel" class="tab-pane active" id="Allgemeine_Gynäkologie">
     			<div class="media">
     				<div class="media-left media-middle">
@@ -241,7 +253,7 @@
     				<p class="margin3">Verhütungsmethode aber auch Kinderplanung.
    					Die natürlichen Verhütungsmethoden verlangen ein großes Maß an Disziplin. Sie sollten Ihren Zyklus gut kennen, um die verschiedenen Methoden richtig anzuwenden.</p>
    					<h4>Mechanische Verhütung</h4>
-   					<p class="margin3">Darunter fallen Verhütungsmittel wie das Kondom oder Diaphragma. Sie bilden eine Barriere gegen Spermien.</p>
+   					<p class="margin3">Darunter fallen Verhütungsmittel wie das Kondom oder Diaphragma. Sie bilden eine Barriere gegen Spermien.</p> -->
    					<!-- <h4>Verhütungs-Computer</h4>
    					<p>Verhütungs-Computer rechnen die fruchtbaren Tage aus. Sie können nur dann sicher und sinnvoll eingesetzt werden, wenn Sie die hormonellen Vorgänge Ihres Zyklus kennen. Verhütungs-Computer dienen nicht nur als Verhütungsmittel, sondern können auch zur natürlichen Familienplanung eingesetzt werden. Die Sicherheit der Geräte hängt von der konsequenten und richtigen Anwendung ab.</p>
    					<h4>Die Pille danach</h4>
@@ -260,7 +272,7 @@
     				<p>Chemische Verhütungsmittel töten Spermien ab und sind nicht so sicher wie andere Verhütungsmittel. In Form von Zäpfchen, Schaum oder Salben werden chemische Verhütungsmittel kurz vor dem Gechlechtsverkehr in die Vagina eingeführt. Es gibt unterschiedliche Wirkungsweisen von chemischen Verhütungsmitteln. Manche töten Spermien ab, oder machen sie bewegungsunfähig.</p>
     				<h4>Sterilisation</h4>
     				<p>Nur wenn Sie ganz sicher sind, dass Sie kein Kind (mehr) bekommen möchten. Eine sehr sichere Methode, die in den meisten Fällen aber nicht rückgängig gemacht werden kann. Eine sichere aber auch fast immer endgültige Verhütungsmethode.</p> -->
-    			</div>
+    			<!-- </div>
     			</div>
     		</div>
     		<div role="tabpanel" class="tab-pane" id="Schwangerschaft">
@@ -275,14 +287,14 @@
     				<h4>Ultraschall</h4>
     				<p class="margin3">Ultraschalluntersuchungen, oder auch Ultraschallscreening, sind Bestandteil der Vorsorgeuntersuchungen während der Schwangerschaft.</p>
     				<h4>Terminberechnung</h4>
-    				<p class="margin3">Wann wird mein Kind zur Welt kommen? Ganz genau lässt sich das nie sagen, aber es gibt eine Rechnung, mit der sich der Termin recht genau bestimmen lässt.</p>
+    				<p class="margin3">Wann wird mein Kind zur Welt kommen? Ganz genau lässt sich das nie sagen, aber es gibt eine Rechnung, mit der sich der Termin recht genau bestimmen lässt.</p> -->
     				<!-- <h4>Impfschutz</h4>
     				<p>Welche Impfungen darf eine schwangere Frau erhalten?</p>
     				<h4>Pränataldiagnostik</h4>
     				<p>Ob ihr Kind ganz gesund ist, kann durch eine erweiterte Diagnostik festgestellt werden.</p>
     				<h4>Ernährung</h4>
     				<p>Muss ich jetzt für zwei essen? Welche Nährstoffe braucht 	mein Körper ganz besonders? Diese und andere Fragen werden Ihnen bei uns beantwortet. -->
-    			</div>
+    			<!-- </div>
     			</div>
     		</div>
     		<div role="tabpanel" class="tab-pane" id="Teenager-Sprechstunde">
@@ -311,7 +323,7 @@
     				Während der Wechseljahre lässt die Funktion der Eierstöcke nach.</h4>
     				<p class="margin3">Die Menstruation bleibt schließlich aus. Aufgrund des Östrogenmangels kann es zu körperlichen und seelischen Beschwerden kommen. Typische Symptome sind u.a. Hitzewallungen, Schweißausbrüche, Knochenschmerzen, trockene Haut, Zwischenblutungen, Reizbarkeit, Antriebslosigkeit, Schlaflosigkeit und depressive Verstimmungen.</p>
     				<h4>Symptome, Beschwerden und Behandlung.</h4>
-    				<p class="margin3">Die Wechseljahre (Klimakterium) sind der Abschluss der Geschlechtsreife und stellen den stufenweisen Übergang ins Älterwerden dar. Die Funktion der Eierstöcke lässt nach, es kommt erst unregelmäßiger und dann gar nicht mehr zu einem Eisprung. Die meisten Frauen kommen zwischen dem 45. und dem 55. Lebensjahr in die Wechseljahre. Das äußere Anzeichen ist das Ausbleiben der Menstruation.</p>
+    				<p class="margin3">Die Wechseljahre (Klimakterium) sind der Abschluss der Geschlechtsreife und stellen den stufenweisen Übergang ins Älterwerden dar. Die Funktion der Eierstöcke lässt nach, es kommt erst unregelmäßiger und dann gar nicht mehr zu einem Eisprung. Die meisten Frauen kommen zwischen dem 45. und dem 55. Lebensjahr in die Wechseljahre. Das äußere Anzeichen ist das Ausbleiben der Menstruation.</p> -->
     				<!-- <h4>Begleiterscheinungen sind häufig:</h4>
     				<p>Da nun auch weniger Östrogen produziert wird, kann es zu bestimmten Folgen des Östrogenmangels kommen:</p>
     				<ul>
@@ -323,7 +335,7 @@
     				</ul>
     				<p>Nicht alle Frauen haben in den Wechseljahren diese typischen Beschwerden. Wenn Symptome auftreten, sollten Sie die Behandlungsbedürftigkeit mit Ihrem Arzt besprechen - hier kann man vieles tun. 
     				Über pflanzliche östrogenähnliche Stoffe (Phytohormone) und die sog. Hormonersatztherapie (HRT) beraten wir Sie gerne.</p> -->
-    			</div>
+    			<!-- </div>
     			</div>
     		</div>
     		<div role="tabpanel" class="tab-pane" id="Wunschleistung">
@@ -342,7 +354,7 @@
     				<p class="margin3">Geburtsvorbereitende Akupunktur </p>
     				<h4>2. Krebsvorsorge PLUS </h4>
     				<h4>Das gute Gefühl, alles für sich getan zu haben...</h4>
-    				<p class="margin3">Ultraschall-Untersuchung des kleinen Beckens</p>
+    				<p class="margin3">Ultraschall-Untersuchung des kleinen Beckens</p> -->
     				<!-- <p>Verbesserter Krebs-Abstrich Thin-Prep</p>
     				<p>HPV-Abstrich</p>
     				<p>Immunologischer Stuhltest zur Früherkennung von Blut im Stuhl</p>
@@ -354,7 +366,7 @@
     				<h4>Der Natur etwas nachhelfen ...</h4>
     				<p>Hormonkosmetik</p>
     				<p>Kosmetische Operationen am Genitale</p> -->
-    			</div>
+    			<!-- </div>
     			</div>
     		</div>
     		<div role="tabpanel" class="tab-pane" id="Doppler_und_3D_4D_Ultraschall">
@@ -365,13 +377,15 @@
     			<div class="media-body">
     				<h3 class="notop">Doppler und 3D/4D Ultraschall</h3>
     				<h4>Ultraschall</h4>
+					    				
+
     				<p class="margin3">Erstes Screening in der 9. bis 12. SSW
     				Aus der Größe des Embryos errechnet der Frauenarzt Alter und Geburtstermin des Kindes. Er kann schon jetzt im Ultraschall sehen, ob Mehrlinge unterwegs sind. 
     				Zweites Screening in der 19. bis 22. SSW
     				Auf dem Ultraschall ist zu sehen, ob alle Organe gut angelegt sind und sich das Kind normal entwickelt. Auch wo die Plazenta sitzt, lässt sich nun erkennen. 
     				Drittes Screening in der 29. bis 32. SSW
     				Es wird das Wachstum des Ungeborenen, die Funktion seiner inneren Organe und der Plazenta kontrolliert. Die Fruchtwassermenge wird bestimmt. </p>
-    				<p class="margin3">Bei der Betrachtung des Kindes achtet der Frauenarzt auf die Entwicklung, um Fehlbildungen und Entwicklungsstörungen möglichst frühzeitig zu erkennen. Erkennt der Arzt Auffälligkeiten, so ist eine weitere Pränataldiagnostik erforderlich.</p>
+    				<p class="margin3">Bei der Betrachtung des Kindes achtet der Frauenarzt auf die Entwicklung, um Fehlbildungen und Entwicklungsstörungen möglichst frühzeitig zu erkennen. Erkennt der Arzt Auffälligkeiten, so ist eine weitere Pränataldiagnostik erforderlich.</p> -->
     				<!-- <h4>Erst-Trimester-Screening (Nackenfalte)</h4>
     				<p>Zwischen der 11. und 14. SSW wird die Nackenfalte des Kindes gemessen. Ebenso wird bei dieser frühen Fehlbildungsdiagnostik das Nasenbein vermessen. Innere Organe wie Herz, Magen und Blase werden ebenfalls jetzt schon beurteilt. Mit einem weltweit anerkannten Rechenprogramm kann aus diesen Werten, zusammen mit zwei Blutwerten der Mutter, das individuelle Risiko einer Behinderung sehr exakt berechnet werden. Durch diese Untersuchung kann man vielen Frauen/Paaren eine Fruchtwasser-Untersuchung ersparen.</p>
     				<p>Bei einem unklaren oder verdächtigen Befund wird die Mutter in eine spezielles Diagnosezentrum zur weiteren Abklärung überwiesen.</p>
@@ -384,35 +398,49 @@
     				<h4>CTG</h4>
     				<p>Der Cardiotokograph (CTG) ist ein sogenannter Herzton-Wehenschreiber. Er zeichnet die Wehen und die Herzaktion des Kindes auf. Arzt und Hebamme können daraus erkennen, ob und wie stark eine Wehentätigkeit vorhanden ist und, ob es dem Baby gut geht.
     				Im Kreißsaal wird der Cardiotokograph immer eingesetzt, aber auch schon im letzten Drittel der Schwangerschaft erfolgen CTG-Untersuchungen in unserer Praxis.</p> -->
-    			</div>
+  <!--   			</div>
     			</div>
     		</div>
     	</div>
-    </div>
+    </div> --> 
  	<div id="Contact">
  		<div class="container-fluid">
  			<div class="row colour">
  				<h2 class="heading2" id="nachricht">Kontakt</h2>
  			</div>
  			<div class="col-md-12">
+                
  				<ul class="list-inline teamlist">
- 					<li class="box1">
- 					  <p class="burgundy marginright">Name/Familienname</p>
- 					  <label><input type="text" name="name" placeholder="Helena Sholt"></label>
- 					  <p class="burgundy marginright">Telefon</p>
- 					  <label><input type="text" name="name" placeholder="+49"></label>
- 					  <p class="burgundy marginright">Email</p>
- 					  <label><input type="text" name="name" placeholder="h.sholt@mail.de"></label>
- 					  <p class="burgundy marginright">Message</p>
- 					  <label><input type="text" name="name" id="message"></label>
- 					  <input class="burgundy marginright" type="submit" value="Submit"> 
- 					</li>
+                    <form method="post" name="contact_form" action="contact-form-handler.php">
+     					<li class="box1">
+     					  <p class="burgundy marginright">Vor- und Nachname</p>
+     					  <label><input type="text" name="name" placeholder="Melanie Müller"></label>
+     					  <p class="burgundy marginright">Telefon</p>
+     					  <label><input type="text" name="phone" placeholder="+49"></label>
+     					  <p class="burgundy marginright">Email</p>
+     					  <label><input type="text" name="email" placeholder="h.sholt@mail.de"></label>
+     					  <p class="burgundy marginright">Nachricht</p>
+     					  <label><input type="text" name="message" id="message"></label>
+     					  <input class="burgundy marginright" type="submit" value="Submit"> 
+     					</li>
+                    </form>
+                        <script language="JavaScript">
+        var frmvalidator  = new Validator("contact_form");
+        frmvalidator.addValidation("name","req","Bitte tragen Sie Ihren Namen ein");
+        frmvalidator.addValidation("name","alpha_s","Bitte tragen Sie einen gültigen Namen ein");
+        frmvalidator.addValidation("email","req","Bitte geben Sie Ihre Email an");
+        frmvalidator.addValidation("email","email","Geben Sie bitte eine gültige Email-adresse an");
+        frmvalidator.addValidation("phone","req","Bitte geben Sie ein Telefonnummer an");
+        frmvalidator.addValidation("phone","alphanumeric_space","Geben Sie bitte eine gültige Telefonnummer an, keine Sonderzeichen anstatt +49 bitte 0049 verwenden.");
+        frmvalidator.addValidation("message","req","Sie haben das Nachrichtenfeld freigelassen.Bitte geben Sie eine Nachricht ein");
+    </script>
+
  					<li id="width3">
- 					  <p class="telefon"><b>Telefon</b>: 02841 / 94 99 567<br>
-					  <b>Email</b>: praxis@dr-krick.de <br>
-					  <b>Address</b>: <br>  
-					  MVZ für Frauengesundheit <br>
-					  Asberger Strasse 3b <br>
+ 					  <p class="telefon"><b>Telefon der Praxen</b> <br>Praxis Dr. Krick: 02841 / 26326 <br>Praxis Drs Stephan/Köstering: 02841 / 16881 <br>MVZ Frauengesundheit Moers:02841 / 9499567 <br>
+					  <b>Email</b> <br><a href="mailto:info@frauengesundheit-moers.de"> info@frauengesundheit-moers.de </a> <br>
+					  <b>Addresse</b>: <br>  
+					  Praxisgemeinschaft Frauengesundheit-Moers <br>
+					  Xantener Strasse 30 <br>
 					  47441 Moers <br>
 					  <br>
 					  <b>Öffnungszeiten:</b><br>
@@ -423,7 +451,7 @@
 					  </p>
 					</li>
 					<li>
- 					  <div id="map" style="width:300px;height:300px"></div>
+ 					  <div id="map" style="width:350px;height:350px"></div>
  					</li>
  				</ul>
  			</div>
